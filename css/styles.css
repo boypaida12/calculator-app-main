@@ -49,14 +49,17 @@
     font-family: 'League Spartan', sans-serif;
 }
 
-.theme-1 {
+.theme-1, .theme-2, .theme-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size: 2rem;
     margin: 2rem auto;
     width: fit-content;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.theme-1 {
     background-color: var(--th1-very-dark-desaturated-blue);
 
 }
@@ -185,13 +188,6 @@ input[type="range"]::-webkit-slider-thumb {
 
 /* theme 2 */
 .theme-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 2rem;
-    margin: 2rem auto;
-    width: fit-content;
-    padding: 1rem;
     background-color: var(--th2-light-gray);
 }
 
@@ -238,13 +234,6 @@ input[type="range"]::-webkit-slider-thumb {
 }
 /* theme 3 */
 .theme-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 2rem;
-    margin: 2rem auto;
-    width: fit-content;
-    padding: 1rem;
     background-color: var(--th3-bg-very-dark-violet);
 }
 
