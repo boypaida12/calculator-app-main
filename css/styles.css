@@ -148,7 +148,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .keypad {
-    font-size: 2.75rem;
+    font-size: 2.25rem;
     background-color: var(--th1-key-bg-grayish-orange);
     border-radius: .75rem;
     cursor: pointer;
@@ -165,7 +165,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .delete, .reset {
-    font-size: 2.25rem;
+    font-size: 2rem;
     align-self: center;
 }
 
