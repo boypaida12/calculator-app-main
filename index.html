@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body class="theme-1">
+    <main>
+      <div class="theme-toggle-container">
+        <h1>calc</h1>
+        <div class="inner-theme-toggle">
+          <div class="theme">
+            <p class="theme-text">THEME</p>
+          </div>
+          <div class="theme-toggler">
+            <div class="theme-numbers">
+              <p class="theme-text">1</p>
+              <p class="theme-text">2</p>
+              <p class="theme-text">3</p>
+            </div>
+              <input type="range" class="input-range" id="theme-toggle" min="1" max="3" value="0">
+          </div>
+        </div>
+      </div>
+      <div class="screen-background">
+        <h1>399,981</h1>
+      </div>
+      <div class="keypad-container">
+        <div class="keypad-row">
+          <div class="keypad">7</div>
+          <div class="keypad">8</div>
+          <div class="keypad">9</div>
+          <div class="keypad reset-div"><p class="delete">DEL</p></div>
+        </div>
+        <div class="keypad-row">
+          <div class="keypad">4</div>
+          <div class="keypad">5</div>
+          <div class="keypad">6</div>
+          <div class="keypad">+</div>
+        </div>
+        <div class="keypad-row">
+          <div class="keypad">1</div>
+          <div class="keypad">2</div>
+          <div class="keypad">3</div>
+          <div class="keypad">-</div>
+        </div>
+        <div class="keypad-row">
+          <div class="keypad">.</div>
+          <div class="keypad">0</div>
+          <div class="keypad">/</div>
+          <div class="keypad">x</div>
+        </div>
+        <div class="keypad-row keypad-div">
+          <div class="keypad reset-div"><p class="reset"> RESET</p></div>
+          <div class="keypad equal">=</div>
+        </div>
+      </div>
+    </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">boypaida</a>.
+  </div>
+
+  <script>
+    const toggle = document.querySelector('#theme-toggle');
+    const body = document.querySelector('body');
+    
+    toggle.addEventListener('input', function() {
+        if (toggle.value == 1) {
+            body.classList.remove('theme-2', 'theme-3');
+            body.classList.add('theme-1');
+        } else if (toggle.value == 2) {
+            body.classList.remove('theme-1', 'theme-3');
+            body.classList.add('theme-2');
+        } else if (toggle.value == 3) {
+            body.classList.remove('theme-1', 'theme-2');
+            body.classList.add('theme-3');
+        }
+    });
+  </script>
+    
+</body>
+</html>
