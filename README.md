@@ -48,6 +48,6 @@ I am new to javascript and decided to take up this challenge to apply what I lea
 I will update this project with Javascript to enable the calculator work. I'm still learning and hope to update soon!
 
 ## Author
-- Frontend Mentor - [@yboypaida](https://www.frontendmentor.io/profile/boypaida)
-- Twitter - [@boypaida12](https://www.twitter.com/boypaida12)
+- Frontend Mentor - [@boypaida12](https://www.frontendmentor.io/profile/boypaida12)
+- Twitter - [@boypaida](https://www.twitter.com/boypaida)
 
