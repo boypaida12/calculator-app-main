@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/boypaida12/calculator-app-main)
+- Live Site URL: [Add live site URL here](https://boypaida12.github.io/calculator-app-main/)
 
 ## My process
 
@@ -50,7 +50,7 @@ I will update this project with Javascript to enable the calculator work. I'm st
 
 ## Update
 
-After almost a month, I've been able to add operation functionality to the calculator. I will probably add more checks to improve functionality.
+After more than a month, I've been able to add operation functionality to the calculator. I will probably add more checks to improve functionality.
 
 ## Author
 - Frontend Mentor - [@boypaida12](https://www.frontendmentor.io/profile/boypaida12)
