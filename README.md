@@ -42,7 +42,7 @@ Users should be able to:
 
 ### What I learned
 
-I am new to javascript and decided to take up this challenge to apply what I learned so far on if else statements and functions. I'm yet to learn in detail eventListeners and getElementById, although I have basic knowledge on their usage. Through this challenge I learned to use the range input tag to enable user toggle the theme of the calculator UI. This has improved my knowledge on if else statements and functions by targetting the value of the range input tag strictly to the theme and using remove and add to replace the respective themes according to the range value.
+I am new to javascript and decided to take up this challenge to apply what I learned so far on if else statements and functions. I'm yet to learn in detail DOM in JS, although I have basic knowledge on its usage. Through this challenge I learned to use the range input tag to enable user toggle the theme of the calculator UI. This has improved my knowledge on if else statements and functions by targetting the value of the range input tag strictly to the theme and using remove and add to replace the respective themes according to the range value.
 
 ### Continued development
 
