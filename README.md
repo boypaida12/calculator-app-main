@@ -48,6 +48,10 @@ I am new to javascript and decided to take up this challenge to apply what I lea
 
 I will update this project with Javascript to enable the calculator work. I'm still learning and hope to update soon!
 
+## Update
+
+After almost a month, I've been able to add operation functionality to the calculator. I will probably add more checks to improve functionality.
+
 ## Author
 - Frontend Mentor - [@boypaida12](https://www.frontendmentor.io/profile/boypaida12)
 - Twitter - [@boypaida](https://www.twitter.com/boypaida)
