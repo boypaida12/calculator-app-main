@@ -30,37 +30,37 @@
           </div>
         </div>
       </div>
-      <div id= "display" class="screen-background">
-        <h1>399,991</h1>
+      <div class="screen-background">
+        <h3 id="display">0</h3>
       </div>
       <div class="keypad-container">
         <div class="keypad-row">
-          <div class="keypad">7</div>
-          <div class="keypad">8</div>
-          <div class="keypad">9</div>
-          <div class="keypad reset-div"><p class="delete">DEL</p></div>
+          <button class="keypad buttons">7</button>
+          <button class="keypad buttons">8</button>
+          <button class="keypad buttons">9</button>
+          <button class="keypad reset-div" id="del">DEL</button>
         </div>
         <div class="keypad-row">
-          <div class="keypad">4</div>
-          <div class="keypad">5</div>
-          <div class="keypad">6</div>
-          <div class="keypad">+</div>
+          <button class="keypad buttons">4</button>
+          <button class="keypad buttons">5</button>
+          <button class="keypad buttons">6</button>
+          <button id="add" class="keypad">+</button>
         </div>
         <div class="keypad-row">
-          <div class="keypad">1</div>
-          <div class="keypad">2</div>
-          <div class="keypad">3</div>
-          <div class="keypad">-</div>
+          <button class="keypad buttons">1</button>
+          <button class="keypad buttons">2</button>
+          <button class="keypad buttons">3</button>
+          <button id="minus" class="keypad">-</button>
         </div>
         <div class="keypad-row">
-          <div class="keypad">.</div>
-          <div class="keypad">0</div>
-          <div class="keypad">/</div>
-          <div class="keypad">x</div>
+          <button class="keypad buttons">.</button>
+          <button class="keypad buttons">0</button>
+          <button id="divide" class="keypad">/</button>
+          <button id="multiply" class="keypad">x</button>
         </div>
         <div class="keypad-row keypad-div">
-          <div class="keypad reset-div"><p class="reset">RESET</p></div>
-          <div id="equal" class="keypad equal">=</div>
+          <button class="keypad reset-div reset" id="resetBtn">RESET</button>
+          <button id="equal" class="keypad equal">=</button>
         </div>
       </div>
     </main>
@@ -87,5 +87,6 @@
     });
   </script>
     
+    <script src="calc-operations.js"></script>
 </body>
 </html>
